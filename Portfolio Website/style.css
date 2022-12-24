@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.container {
+  max-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/developer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.introduction {
+  position: relative;
+  top: 4rem;
+  left: 25rem;
+  text-align: left;
+}
+.greetings,
+.role {
+  font-size: 5rem;
+  line-height: 1.1;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+.name {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.description {
+  background-color: black;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.you {
+  font-size: 7rem;
+}
+.works {
+  margin-top: 8rem;
+  width: 100vw;
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 5rem;
+}
+
+.webDevelopment,
+.appDevelopment,
+.designer {
+  width: 25vw;
+  height: 70vh;
+  background-color: aliceblue;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.image1 {
+  background-image: url("./images/web.png");
+}
+.image2 {
+  background-image: url("./images/mobile.png");
+}
+.image3 {
+  background-image: url("./images/uiux.png");
+}
+.image1,
+.image2,
+.image3 {
+  width: 100%;
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.webDevelopment h1,
+.appDevelopment h1,
+.designer h1 {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  padding: 1.5rem 1rem;
+}
+
+.works p {
+  padding: 1rem;
+}
+
+.footer {
+  background-color: skyblue;
+  padding: 2rem 0;
+  text-align: center;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.webDevelopment:hover,
+.appDevelopment:hover,
+.designer:hover {
+  transform: scale(1.1);
+}
